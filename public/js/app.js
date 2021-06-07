@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
             }
             else{
                 messageOne.textContent = data.location
-                messageTwo.textContent = `It's ${data.forecast.weather} got temperature ${data.forecast.temperature} and feels like ${data.forecast.feelslike}`
+                messageTwo.textContent = `It's ${data.forecast.weather} got temperature ${data.forecast.temperature} and feels like ${data.forecast.feelslike}, the wind speed currently ${data.forecast.wind_speed}`
             }
         })
     })
